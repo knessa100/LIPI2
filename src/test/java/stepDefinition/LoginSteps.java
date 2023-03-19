@@ -9,7 +9,8 @@ import io.cucumber.java.en.When;
 import pageObject.LoginPage;
 
 public class LoginSteps extends Config {
-    LoginPage loginPage=new LoginPage(driver);
+    LoginPage loginPage = new LoginPage(driver);
+
 
 
     @Given("User in TalentTEK Homepage")
@@ -39,19 +40,29 @@ public class LoginSteps extends Config {
         loginPage.loginSuccess();
     }
 
-
-    @And("User enter invalid password")
-    public void userEnterInvalidPassword() {
-        
+    @And("User enter invalid email address")
+    public void userEnterInvalidEmailAddress() {
+        loginPage.enterUsername(TestData.invalidUsername);
     }
 
     @Then("User should be able to see {string}")
-    public void userShouldBeAbleToSee(String arg0) {
-        
+    public void userShouldBeAbleToSee(String errorMessage) {
+        loginPage.invalidCredentials(errorMessage);
     }
 
-    @And("User enter invalid email address")
-    public void userEnterInvalidEmailAddress() {
+    @And("User enter invalid password")
+    public void userEnterInvalidPassword() {
+        loginPage.enterPassword(TestData.invalidPassword);
     }
 }
+
+
+
+
+
+
+
+
+
+
 

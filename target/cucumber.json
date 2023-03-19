@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-03-18T22:57:56.226Z",
+        "start_timestamp": "2023-03-19T02:43:17.036Z",
         "before": [
           {
             "result": {
-              "duration": 5542889000,
+              "duration": 6508502000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 135606000,
+              "duration": 185939000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34365000,
+              "duration": 79928000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 269130000,
+              "duration": 739836000,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 83539000,
+              "duration": 145040000,
               "status": "passed"
             },
             "line": 6,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 100930000,
+              "duration": 156649000,
               "status": "passed"
             },
             "line": 7,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 407220000,
+              "duration": 609033000,
               "status": "passed"
             },
             "line": 8,
@@ -107,11 +107,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-03-18T22:58:02.845Z",
+        "start_timestamp": "2023-03-19T02:43:25.578Z",
         "before": [
           {
             "result": {
-              "duration": 2914187000,
+              "duration": 3021411000,
               "status": "passed"
             },
             "match": {
@@ -126,7 +126,7 @@
         "after": [
           {
             "result": {
-              "duration": 129304000,
+              "duration": 159407000,
               "status": "passed"
             },
             "match": {
@@ -139,7 +139,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6100000,
+              "duration": 5692000,
               "status": "passed"
             },
             "line": 11,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 168426000,
+              "duration": 189567000,
               "status": "passed"
             },
             "line": 12,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 169000,
+              "duration": 67431000,
               "status": "passed"
             },
             "line": 13,
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 77947000,
+              "duration": 69968000,
               "status": "passed"
             },
             "line": 14,
@@ -187,8 +187,9 @@
           },
           {
             "result": {
-              "duration": 711000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027incorrectCredentialMessage\u0027]\"}\n  (Session info: chrome\u003d108.0.5359.124)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.1\u0027, revision: \u0027e8fcc2cecf\u0027\nSystem info: host: \u0027MacBook-Pro\u0027, ip: \u00272600:4041:5e11:d00:59e4:f08e:1491:631d%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.1\u0027, java.version: \u002719.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8fdcaea02857f94de93e7766ee997979, findElement {using\u003dcss selector, value\u003d*[name\u003d\u0027incorrectCredentialMessage\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/b1/h6dpbvls359...}, goog:chromeOptions: {debuggerAddress: localhost:64299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64299/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8fdcaea02857f94de93e7766ee997979\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\n\tat org.openqa.selenium.By$PreW3CLocator.findElement(By.java:429)\n\tat org.openqa.selenium.By$ByName.findElement(By.java:238)\n\tat org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:80)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\n\tat jdk.proxy2/jdk.proxy2.$Proxy25.getText(Unknown Source)\n\tat pageObject.LoginPage.invalidCredentials(LoginPage.java:51)\n\tat stepDefinition.LoginSteps.userShouldBeAbleToSee(LoginSteps.java:50)\n\tat ✽.User should be able to see \" You have entered an incorrect email or student ID.\"(file:///Users/kamrunnessa/Documents/GitStuff/LIPI2/src/test/java/features/login.feature:15)\n",
+              "duration": 60065911000,
+              "status": "failed"
             },
             "line": 15,
             "name": "User should be able to see \" You have entered an incorrect email or student ID.\"",
@@ -207,9 +208,6 @@
         "tags": [
           {
             "name": "@smoke"
-          },
-          {
-            "name": "@hb"
           }
         ]
       }
@@ -219,73 +217,6 @@
     "id": "login-feature",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/login.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2023-03-18T22:58:06.146Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2688315000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hook.beforeEachTest()"
-            }
-          }
-        ],
-        "line": 5,
-        "name": "User should be able to login with a brand new email with unique email address",
-        "description": "",
-        "id": "signup-feature;user-should-be-able-to-login-with-a-brand-new-email-with-unique-email-address",
-        "after": [
-          {
-            "result": {
-              "duration": 105491000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinition.Hook.afterEachTest()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5412000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "User in TalentTEK Homepage",
-            "match": {
-              "location": "stepDefinition.LoginSteps.userInTalentTEKHomepage()"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@regression"
-          },
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@sanity"
-          }
-        ]
-      }
-    ],
-    "name": "Signup Feature",
-    "description": "",
-    "id": "signup-feature",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/features/signup.feature",
     "tags": []
   }
 ]

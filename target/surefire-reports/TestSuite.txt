@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.431 s - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 72.892 s <<< FAILURE! - in TestSuite
+TestRunner.runScenario["User should not be able to login with valid email and invalid password", "Optional[Login Feature]"](2)  Time elapsed: 63.617 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"*[name='incorrectCredentialMessage']"}
+  (Session info: chrome=108.0.5359.124)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'MacBook-Pro', ip: '2600:4041:5e11:d00:59e4:f08e:1491:631d%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8fdcaea02857f94de93e7766ee997979, findElement {using=css selector, value=*[name='incorrectCredentialMessage']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/b1/h6dpbvls359...}, goog:chromeOptions: {debuggerAddress: localhost:64299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64299/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fdcaea02857f94de93e7766ee997979
+
