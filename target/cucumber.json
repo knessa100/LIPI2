@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-03-19T02:43:17.036Z",
+        "start_timestamp": "2023-03-23T03:14:33.810Z",
         "before": [
           {
             "result": {
-              "duration": 6508502000,
+              "duration": 6744411000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 185939000,
+              "duration": 613000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 79928000,
+              "duration": 39867000,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 739836000,
+              "duration": 906086000,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 145040000,
+              "duration": 130121000,
               "status": "passed"
             },
             "line": 6,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 156649000,
+              "duration": 110584000,
               "status": "passed"
             },
             "line": 7,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 609033000,
+              "duration": 538391000,
               "status": "passed"
             },
             "line": 8,
@@ -107,11 +107,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-03-19T02:43:25.578Z",
+        "start_timestamp": "2023-03-23T03:14:42.353Z",
         "before": [
           {
             "result": {
-              "duration": 3021411000,
+              "duration": 3930586000,
               "status": "passed"
             },
             "match": {
@@ -126,7 +126,7 @@
         "after": [
           {
             "result": {
-              "duration": 159407000,
+              "duration": 93000,
               "status": "passed"
             },
             "match": {
@@ -139,7 +139,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5692000,
+              "duration": 7509000,
               "status": "passed"
             },
             "line": 11,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 189567000,
+              "duration": 205014000,
               "status": "passed"
             },
             "line": 12,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 67431000,
+              "duration": 92920000,
               "status": "passed"
             },
             "line": 13,
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 69968000,
+              "duration": 76827000,
               "status": "passed"
             },
             "line": 14,
@@ -187,20 +187,20 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name\u003d\u0027incorrectCredentialMessage\u0027]\"}\n  (Session info: chrome\u003d108.0.5359.124)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.1.1\u0027, revision: \u0027e8fcc2cecf\u0027\nSystem info: host: \u0027MacBook-Pro\u0027, ip: \u00272600:4041:5e11:d00:59e4:f08e:1491:631d%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002713.1\u0027, java.version: \u002719.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [8fdcaea02857f94de93e7766ee997979, findElement {using\u003dcss selector, value\u003d*[name\u003d\u0027incorrectCredentialMessage\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/b1/h6dpbvls359...}, goog:chromeOptions: {debuggerAddress: localhost:64299}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:64299/devtoo..., se:cdpVersion: 108.0.5359.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8fdcaea02857f94de93e7766ee997979\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\n\tat org.openqa.selenium.By$PreW3CLocator.findElement(By.java:429)\n\tat org.openqa.selenium.By$ByName.findElement(By.java:238)\n\tat org.openqa.selenium.support.ByIdOrName.findElement(ByIdOrName.java:50)\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:80)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\n\tat jdk.proxy2/jdk.proxy2.$Proxy25.getText(Unknown Source)\n\tat pageObject.LoginPage.invalidCredentials(LoginPage.java:51)\n\tat stepDefinition.LoginSteps.userShouldBeAbleToSee(LoginSteps.java:50)\n\tat ✽.User should be able to see \" You have entered an incorrect email or student ID.\"(file:///Users/kamrunnessa/Documents/GitStuff/LIPI2/src/test/java/features/login.feature:15)\n",
-              "duration": 60065911000,
+              "error_message": "java.lang.AssertionError: expected [ You have entered an incorrect email or student ID.] but found [You have entered an incorrect email or student Id.]\n\tat org.testng.Assert.fail(Assert.java:99)\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\n\tat org.testng.Assert.assertEquals(Assert.java:122)\n\tat org.testng.Assert.assertEquals(Assert.java:629)\n\tat org.testng.Assert.assertEquals(Assert.java:639)\n\tat pageObject.LoginPage.invalidCredentials(LoginPage.java:55)\n\tat stepDefinition.LoginSteps.userShouldSee(LoginSteps.java:56)\n\tat ✽.User should see \" You have entered an incorrect email or student ID.\"(file:///Users/kamrunnessa/Documents/GitStuff/LIPI2/src/test/java/features/login.feature:15)\n",
+              "duration": 310641000,
               "status": "failed"
             },
             "line": 15,
-            "name": "User should be able to see \" You have entered an incorrect email or student ID.\"",
+            "name": "User should see \" You have entered an incorrect email or student ID.\"",
             "match": {
               "arguments": [
                 {
                   "val": "\" You have entered an incorrect email or student ID.\"",
-                  "offset": 27
+                  "offset": 16
                 }
               ],
-              "location": "stepDefinition.LoginSteps.userShouldBeAbleToSee(java.lang.String)"
+              "location": "stepDefinition.LoginSteps.userShouldSee(java.lang.String)"
             },
             "keyword": "Then "
           }

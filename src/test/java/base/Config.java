@@ -12,21 +12,26 @@ public class Config {
     //init Driver
     public static WebDriver driver;
 
-    // Setup browser type
-    public static WebDriver setupBrowser(String driverType) {
-        if (driverType.equalsIgnoreCase("Ch")) {
+//Setup Browser type
+
+    public static WebDriver setupBrowser(String browser){
+
+        if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
-        } else if (driverType.equalsIgnoreCase("ff")) {
+        } else if (browser.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
-        } else if (driverType.equalsIgnoreCase("safari")) {
+
+        } else if (browser.equalsIgnoreCase("safari")) {
             WebDriverManager.safaridriver().setup();
             driver = new SafariDriver();
+        } else {
+            throw new IllegalArgumentException("Invalid browser name");
         }
         driver.manage().window().maximize();
-        // wait implicit wait
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         return driver;
     }
+
 }

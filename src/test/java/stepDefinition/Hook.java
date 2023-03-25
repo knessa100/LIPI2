@@ -3,12 +3,13 @@ package stepDefinition;
 import base.Config;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import org.openqa.selenium.WebDriver;
 
 public class Hook extends Config {
     //QA: http://www.qa.taltektc.com
     //STAGE: http://www.stage.taltektc.com
     //PROD: http://www.prod.taltektc.com
-
+WebDriver driver;
     public static String url;
     public static String driverType= System.getProperty("browser");
     public static String envType= System.getProperty("env");
@@ -33,7 +34,7 @@ public class Hook extends Config {
 
     @After
     public void afterEachTest(){
-        driver.quit();
+        //driver.quit();
     }
 
 }

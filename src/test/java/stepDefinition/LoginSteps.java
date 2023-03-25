@@ -11,8 +11,6 @@ import pageObject.LoginPage;
 public class LoginSteps extends Config {
     LoginPage loginPage = new LoginPage(driver);
 
-
-
     @Given("User in TalentTEK Homepage")
     public void userInTalentTEKHomepage() {
         loginPage.validateHomePage();
@@ -27,34 +25,44 @@ public class LoginSteps extends Config {
 
     @And("User enter valid password")
     public void userEnterValidPassword() {
+
         loginPage.enterPassword(TestData.password);
     }
 
     @When("User clicks on Log In button")
     public void userClicksOnLogInButton() {
+
         loginPage.clickloginButton();
     }
 
     @Then("User should be able to successfully login")
     public void userShouldBeAbleToSuccessfullyLogin() {
-        loginPage.loginSuccess();
+
+        loginPage.loginSuccessfull();
     }
 
     @And("User enter invalid email address")
     public void userEnterInvalidEmailAddress() {
-        loginPage.enterUsername(TestData.invalidUsername);
-    }
 
-    @Then("User should be able to see {string}")
-    public void userShouldBeAbleToSee(String errorMessage) {
-        loginPage.invalidCredentials(errorMessage);
+        loginPage.enterUsername(TestData.invalidUsername);
     }
 
     @And("User enter invalid password")
     public void userEnterInvalidPassword() {
+
         loginPage.enterPassword(TestData.invalidPassword);
     }
+
+    @Then("User should see {string}")
+    public void userShouldSee(String EMSG) {
+        loginPage.invalidCredentials(EMSG);
+
+    }
+
+
 }
+
+
 
 
 

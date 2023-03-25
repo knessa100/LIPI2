@@ -9,43 +9,44 @@ import org.testng.Assert;
 import static base.Config.driver;
 
 public class LoginPage {
+
+    private WebDriver driver;
     @FindBy(name = "email")
     WebElement username;
     @FindBy(name ="password")
     WebElement password;
-    ////*[@id="login_form"]/input[3]
+
     @FindBy(xpath = "//*[@id=\"login_form\"]/input[3]")
     WebElement loginButton;
-    //*[@id="profile_form"]/legend
+
     @FindBy(xpath = "//*[@id=\"profile_form\"]/legend")
     WebElement welcome;
-    private WebElement incorrectCredentialMessage;
-
+    @FindBy(xpath = "//*[@id=\"error_message\"]/div/h5")
+    WebElement incorrectCredentialMessage;
     public LoginPage(WebDriver driver){
+        this.driver = driver;
         PageFactory.initElements(driver, this);
 
-    }
-    public void validateHomePage() {
+    }public void validateHomePage() {
+
         Assert.assertEquals(driver.getTitle(), "Sign In");
     }
     public void enterUsername(String userid) {
+
         username.sendKeys(userid);
     }
 
     public void enterPassword(String pw) {
+
         password.sendKeys(pw);
     }
-
-
     public void clickloginButton() {
+
         loginButton.click();
     }
+    public void loginSuccessfull() {
 
-
-    public void loginSuccess() {
         Assert.assertTrue(welcome.isDisplayed());
-    }
-    public void userEnterInvalidEmailAddress() {
     }
     public void invalidCredentials(String EMSG) {
         String error=incorrectCredentialMessage.getText();
@@ -53,6 +54,7 @@ public class LoginPage {
         System.out.println("Error message:"+error);
         Assert.assertEquals(error,EMSG);
     }
+
 
 
 }
